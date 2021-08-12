@@ -18,3 +18,7 @@ random work에서 P(u|v)과 P(v|u)가 같은가?
 u→v로 갈때, z_v는 고정이고, z_u만 업데이트 하는 방식으로 이해하면 z_v^Tz_u = z_u^Tz_v일 필요 없을 것 같다.
 
 그래프 임베딩을 해야할 때, virtual node를 어떻게 사용하는가?
+
+- → standard한 노드 임베딩 기술을 이용해서, 전체 그래프의 노드를 임베딩
+- → virtual node가 연결되어 있는 subgraph나 전체 그래프의 정보를 가진채 임베딩 됨
+- → virtual node의 임베딩을 subgraph나 전체 그래프의 대표(?) 노드 임베딩으로 사용
