@@ -13,3 +13,8 @@ similarity 계산할 때 벡터의 l2 norm으로 나눠주게되면 l2 norm을 �
 왜 소프트맥스를 사용하지?
 random walk로 만난 노드의 확률은 높이고, 안 만난 노드의 확률은 낮추기 위해서 사용
 
+
+random work에서 P(u|v)과 P(v|u)가 같은가? 
+u→v로 갈때, z_v는 고정이고, z_u만 업데이트 하는 방식으로 이해하면 z_v^Tz_u = z_u^Tz_v일 필요 없을 것 같다.
+
+그래프 임베딩을 해야할 때, virtual node를 어떻게 사용하는가?
