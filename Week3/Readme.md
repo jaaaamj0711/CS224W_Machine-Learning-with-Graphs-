@@ -18,3 +18,6 @@ u→v로 갈때, z_v는 고정이고, z_u만 업데이트 하는 방식으로 �
 - standard한 노드 임베딩 기술을 이용해서, 전체 그래프의 노드를 임베딩
 - virtual node가 연결되어 있는 subgraph나 전체 그래프의 정보를 가진채 임베딩 됨
 - virtual node의 임베딩을 subgraph나 전체 그래프의 대표(?) 노드 임베딩으로 사용
+
+
+https://velog.io/@stapers/Lecture-3-Node-Embeddings
